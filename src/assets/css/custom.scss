@@ -1,0 +1,36 @@
+@import './variables.scss';
+
+* {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: darken($color: $secondary, $amount: 10);
+}
+
+a {
+  text-decoration: none;
+  color: $primary;
+}
+
+a:hover {
+  color: darken($color: $primary, $amount: 10);
+}
+
+.square {
+  width: $square-size;
+  height: $square-size;
+  display: inline-block;
+  margin: 0px;
+  padding: 0px;
+}
+
+.row {
+  padding: 0px;
+  margin: 0px;
+}
+
+.light-square {
+  background-color: $light-square;
+}
+
+.dark-square {
+  background-color: $dark-square;
+}
